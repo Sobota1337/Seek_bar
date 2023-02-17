@@ -47,11 +47,11 @@ class MainActivity : AppCompatActivity() {
 
 
         reset.setOnClickListener() {
-            obraz1_pion.progress = 100
-            obraz2_pion.progress = 100
+            obraz1_pion.progress = 0
+            obraz2_pion.progress = 0
 
-            obraz1_poziom.progress = 100
-            obraz2_poziom.progress = 100
+            obraz1_poziom.progress = 0
+            obraz2_poziom.progress = 0
 
 
         }
