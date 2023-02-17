@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             return suma
         }
         fun changed(progressBar: ProgressBar, suma: Int){
-            progressBar.progress = suma/3
+            progressBar.progress = suma/2
         }
     @SuppressLint("MissingInflatedId")
         override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
             obraz2_poziom.progress = 100
 
 
+        }
 
             obraz1_pion.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener {
                 override fun onProgressChanged(seekBar: SeekBar,progres: Int, fromUser: Boolean) {
@@ -112,7 +113,7 @@ class MainActivity : AppCompatActivity() {
 
 
         }
-}
+
 
 
 
